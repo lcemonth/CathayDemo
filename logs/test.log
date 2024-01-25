@@ -1,0 +1,51 @@
+01:07:31.126 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+01:07:31.159 [main] INFO  com.cathay.CathayDemoApplication - Starting CathayDemoApplication using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 68876 (C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo\target\classes started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+01:07:31.163 [main] INFO  com.cathay.CathayDemoApplication - No active profile set, falling back to default profiles: default
+01:07:32.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:07:32.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:07:32.288 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+01:07:32.378 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring embedded WebApplicationContext
+01:07:32.443 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:07:32.491 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:07:32.557 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:07:32.603 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+01:07:32.715 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:07:32.819 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+01:07:33.263 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:07:33.760 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+01:07:33.993 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:07:34.033 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+01:07:34.050 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+01:07:34.075 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+01:07:34.195 [main] INFO  com.cathay.CathayDemoApplication - Started CathayDemoApplication in 3.341 seconds (JVM running for 4.227)
+01:39:37.820 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:45:36.857 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method
+01:45:36.961 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+01:45:43.052 [http-nio-8080-exec-9] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 1
+01:47:07.877 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 1
+01:47:09.212 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 1
+01:48:56.648 [http-nio-8080-exec-7] INFO  com.cathay.service.impl.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=NTD, currencyName=台幣]
+01:49:47.336 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:49:48.997 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:51:27.591 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CurrencyServiceImpl - updCurrency method: currencyId = 4
+01:51:27.592 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+01:51:27.593 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=台幣]
+01:52:05.417 [http-nio-8080-exec-5] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:52:39.352 [http-nio-8080-exec-10] INFO  com.cathay.service.impl.CurrencyServiceImpl - delCurrency method: currencyId = 4
+01:52:39.353 [http-nio-8080-exec-10] INFO  com.cathay.service.impl.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+01:53:03.894 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:53:26.113 [http-nio-8080-exec-6] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+01:53:26.113 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+01:53:26.737 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 17:53:24 UTC","updatedISO":"2024-01-25T17:53:24+00:00","updateduk":"Jan 25, 2024 at 17:53 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,833.096","description":"United States Dollar","rate_float":39833.0955},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,373.502","description":"British Pound Sterling","rate_float":31373.502},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,758.897","description":"Euro","rate_float":36758.8967}}}
+01:53:26.743 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 17:53 GMT, updatedISO=2024-01-25T17:53:24+00:00, updated=Jan 25, 2024 17:53:24 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39833.0955, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31373.502, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36758.8967, code=EUR, description=Euro]}]
+01:53:26.743 [http-nio-8080-exec-6] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 17:53 GMT, updatedISO=2024-01-25T17:53:24+00:00, updated=Jan 25, 2024 17:53:24 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39833.0955, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31373.502, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36758.8967, code=EUR, description=Euro]}]
+01:54:05.327 [http-nio-8080-exec-3] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+01:54:05.327 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+01:54:05.652 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+01:54:05.652 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 17:54:03 UTC
+02:04:14.449 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method
+02:04:14.452 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+02:04:15.260 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method
+02:04:15.262 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+02:04:56.256 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:04:56.262 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,480 @@
+00:05:05.872 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:05:05.915 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 67452 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:05:05.920 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:05:07.358 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:05:07.456 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:05:07.599 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:05:07.667 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:05:07.796 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:05:07.995 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:05:08.567 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:05:09.563 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:05:10.282 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:05:10.304 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:05:10.338 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:05:10.473 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.85 seconds (JVM running for 6.389)
+00:05:10.724 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:05:10.724 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:05:11.456 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:05:08 UTC","updatedISO":"2024-01-25T16:05:08+00:00","updateduk":"Jan 25, 2024 at 16:05 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,819.1","description":"United States Dollar","rate_float":39819.0996},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,296.22","description":"British Pound Sterling","rate_float":31296.2195},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,665.108","description":"Euro","rate_float":36665.1084}}}
+00:05:11.464 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:05 GMT, updatedISO=2024-01-25T16:05:08+00:00, updated=Jan 25, 2024 16:05:08 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39819.0996, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31296.2195, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36665.1084, code=EUR, description=Euro]}]
+00:05:11.464 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:05 GMT, updatedISO=2024-01-25T16:05:08+00:00, updated=Jan 25, 2024 16:05:08 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39819.0996, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31296.2195, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36665.1084, code=EUR, description=Euro]}]
+00:05:11.601 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:05:11.608 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:05:27.069 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:05:27.110 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 70568 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:05:27.115 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:05:28.669 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:05:28.749 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:05:28.891 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:05:28.959 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:05:29.105 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:05:29.302 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:05:29.879 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:05:30.884 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:05:31.606 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:05:31.626 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:05:31.659 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:05:31.798 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.972 seconds (JVM running for 6.371)
+00:05:32.042 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:05:32.042 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:05:32.476 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:05:08 UTC","updatedISO":"2024-01-25T16:05:08+00:00","updateduk":"Jan 25, 2024 at 16:05 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,819.1","description":"United States Dollar","rate_float":39819.0996},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,296.22","description":"British Pound Sterling","rate_float":31296.2195},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,665.108","description":"Euro","rate_float":36665.1084}}}
+00:05:32.485 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:05 GMT, updatedISO=2024-01-25T16:05:08+00:00, updated=Jan 25, 2024 16:05:08 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39819.0996, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31296.2195, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36665.1084, code=EUR, description=Euro]}]
+00:05:32.485 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:05 GMT, updatedISO=2024-01-25T16:05:08+00:00, updated=Jan 25, 2024 16:05:08 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39819.0996, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31296.2195, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36665.1084, code=EUR, description=Euro]}]
+00:05:32.641 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:05:32.647 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:08:17.508 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:08:17.548 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 65088 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:08:17.555 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:08:19.046 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:08:19.129 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:08:19.259 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:08:19.325 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:08:19.485 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:08:19.683 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:08:20.218 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:08:21.250 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:08:21.939 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:08:21.960 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:08:21.994 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:08:22.132 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.867 seconds (JVM running for 6.332)
+00:08:22.392 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:08:22.392 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:08:23.067 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:08:20 UTC","updatedISO":"2024-01-25T16:08:20+00:00","updateduk":"Jan 25, 2024 at 16:08 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,767.951","description":"United States Dollar","rate_float":39767.9512},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,256.019","description":"British Pound Sterling","rate_float":31256.0189},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,618.011","description":"Euro","rate_float":36618.0113}}}
+00:08:23.074 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:08 GMT, updatedISO=2024-01-25T16:08:20+00:00, updated=Jan 25, 2024 16:08:20 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39767.9512, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31256.0189, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36618.0113, code=EUR, description=Euro]}]
+00:08:23.075 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:08 GMT, updatedISO=2024-01-25T16:08:20+00:00, updated=Jan 25, 2024 16:08:20 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39767.9512, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31256.0189, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36618.0113, code=EUR, description=Euro]}]
+00:08:23.218 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:08:23.224 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:08:49.322 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:08:49.357 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 69488 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:08:49.361 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:08:50.785 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:08:50.865 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:08:50.996 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:08:51.067 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:08:51.201 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:08:51.410 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:08:51.944 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:08:52.942 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:08:53.638 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:08:53.661 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:08:53.704 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:08:53.843 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.765 seconds (JVM running for 6.158)
+00:08:54.088 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:08:54.088 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:08:54.794 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:08:53 UTC","updatedISO":"2024-01-25T16:08:53+00:00","updateduk":"Jan 25, 2024 at 16:08 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,761.917","description":"United States Dollar","rate_float":39761.9172},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,251.276","description":"British Pound Sterling","rate_float":31251.2764},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,612.455","description":"Euro","rate_float":36612.4552}}}
+00:08:54.801 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:08 GMT, updatedISO=2024-01-25T16:08:53+00:00, updated=Jan 25, 2024 16:08:53 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39761.9172, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31251.2764, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36612.4552, code=EUR, description=Euro]}]
+00:08:54.802 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:08 GMT, updatedISO=2024-01-25T16:08:53+00:00, updated=Jan 25, 2024 16:08:53 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39761.9172, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31251.2764, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36612.4552, code=EUR, description=Euro]}]
+00:08:54.936 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:08:54.943 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:10:38.208 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:10:38.240 [main] INFO  com.cathay.CathayDemoApplication - Starting CathayDemoApplication using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 70020 (C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo\target\classes started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:10:38.244 [main] INFO  com.cathay.CathayDemoApplication - No active profile set, falling back to default profiles: default
+00:10:39.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:10:39.374 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:10:39.374 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+00:10:39.454 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring embedded WebApplicationContext
+00:10:39.524 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:10:39.572 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:10:39.639 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:10:39.692 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:10:39.802 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:10:39.910 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:10:40.359 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:10:40.882 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:10:41.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:10:41.154 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:10:41.170 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:10:41.196 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:10:41.310 [main] INFO  com.cathay.CathayDemoApplication - Started CathayDemoApplication in 3.365 seconds (JVM running for 4.254)
+00:12:10.015 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:12:10.034 [http-nio-8080-exec-1] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:12:10.034 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:12:10.624 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+00:12:10.624 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 16:12:09 UTC
+00:15:09.052 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:15:09.057 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:15:20.927 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:15:20.964 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 63300 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:15:20.968 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:15:22.455 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:15:22.538 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:15:22.675 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:15:22.747 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:15:22.894 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:15:23.092 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:15:23.645 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:15:24.653 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:15:25.358 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:15:25.380 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:15:25.418 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:15:25.559 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.886 seconds (JVM running for 6.297)
+00:15:25.815 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:15:25.815 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:15:26.567 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:15:24 UTC","updatedISO":"2024-01-25T16:15:24+00:00","updateduk":"Jan 25, 2024 at 16:15 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,848.148","description":"United States Dollar","rate_float":39848.1479},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,319.05","description":"British Pound Sterling","rate_float":31319.0503},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,691.856","description":"Euro","rate_float":36691.8558}}}
+00:15:26.576 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:15 GMT, updatedISO=2024-01-25T16:15:24+00:00, updated=Jan 25, 2024 16:15:24 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39848.1479, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31319.0503, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36691.8558, code=EUR, description=Euro]}]
+00:15:26.576 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:15 GMT, updatedISO=2024-01-25T16:15:24+00:00, updated=Jan 25, 2024 16:15:24 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39848.1479, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31319.0503, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36691.8558, code=EUR, description=Euro]}]
+00:15:26.679 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:15:26.680 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:15:26.726 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:15:26.757 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:15:26.763 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:16:47.072 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:16:47.112 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 15912 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:16:47.117 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:16:48.560 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:16:48.639 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:16:48.771 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:16:48.854 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:16:48.997 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:16:49.195 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:16:49.749 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:16:50.761 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:16:51.498 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:16:51.522 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:16:51.556 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:16:51.690 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.858 seconds (JVM running for 6.249)
+00:16:51.924 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:16:51.924 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:16:53.590 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:16:51 UTC","updatedISO":"2024-01-25T16:16:51+00:00","updateduk":"Jan 25, 2024 at 16:16 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,807.844","description":"United States Dollar","rate_float":39807.8439},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,287.373","description":"British Pound Sterling","rate_float":31287.373},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,654.744","description":"Euro","rate_float":36654.7442}}}
+00:16:53.596 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:16 GMT, updatedISO=2024-01-25T16:16:51+00:00, updated=Jan 25, 2024 16:16:51 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39807.8439, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31287.373, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36654.7442, code=EUR, description=Euro]}]
+00:16:53.597 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:16 GMT, updatedISO=2024-01-25T16:16:51+00:00, updated=Jan 25, 2024 16:16:51 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39807.8439, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31287.373, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36654.7442, code=EUR, description=Euro]}]
+00:16:53.712 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:16:53.712 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:16:54.049 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:16:54.078 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:16:54.085 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:17:33.173 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:17:33.222 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 69952 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:17:33.226 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:17:34.788 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:17:34.874 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:17:35.034 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:17:35.105 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:17:35.269 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:17:35.485 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:17:36.192 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:17:37.356 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:17:38.201 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:17:38.224 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:17:38.264 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:17:38.410 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 5.473 seconds (JVM running for 7.327)
+00:17:38.670 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:17:38.670 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:17:55.450 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:17:48 UTC","updatedISO":"2024-01-25T16:17:48+00:00","updateduk":"Jan 25, 2024 at 16:17 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,826.814","description":"United States Dollar","rate_float":39826.8136},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,302.282","description":"British Pound Sterling","rate_float":31302.2824},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,672.211","description":"Euro","rate_float":36672.2114}}}
+00:17:55.500 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:17 GMT, updatedISO=2024-01-25T16:17:48+00:00, updated=Jan 25, 2024 16:17:48 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39826.8136, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31302.2824, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36672.2114, code=EUR, description=Euro]}]
+00:18:04.682 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:17 GMT, updatedISO=2024-01-25T16:17:48+00:00, updated=Jan 25, 2024 16:17:48 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39826.8136, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31302.2824, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36672.2114, code=EUR, description=Euro]}]
+00:18:09.158 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:18:09.161 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:18:11.048 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:18:28.438 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:18:28.446 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:19:04.984 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:19:05.028 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 67920 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:19:05.034 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:19:06.576 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:19:06.662 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:19:06.796 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:19:06.872 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:19:07.043 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:19:07.254 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:19:07.897 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:19:09.064 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:19:09.907 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:19:09.931 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:19:09.976 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:19:10.107 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 5.368 seconds (JVM running for 7.149)
+00:19:10.363 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:19:10.363 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:19:14.350 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:19:12 UTC","updatedISO":"2024-01-25T16:19:12+00:00","updateduk":"Jan 25, 2024 at 16:19 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,855.622","description":"United States Dollar","rate_float":39855.6223},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,324.925","description":"British Pound Sterling","rate_float":31324.9249},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,698.738","description":"Euro","rate_float":36698.7382}}}
+00:19:14.357 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:19 GMT, updatedISO=2024-01-25T16:19:12+00:00, updated=Jan 25, 2024 16:19:12 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39855.6223, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31324.9249, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36698.7382, code=EUR, description=Euro]}]
+00:19:16.404 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:19 GMT, updatedISO=2024-01-25T16:19:12+00:00, updated=Jan 25, 2024 16:19:12 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39855.6223, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31324.9249, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36698.7382, code=EUR, description=Euro]}]
+00:19:20.997 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:19:23.123 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:19:27.234 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:19:27.279 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:19:27.286 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:19:53.630 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:19:53.679 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 63136 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:19:53.683 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:19:55.305 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:19:55.388 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:19:55.537 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:19:55.604 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:19:55.767 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:19:55.972 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:19:56.660 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:19:57.815 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:19:58.665 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:19:58.690 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:19:58.735 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:19:58.868 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 5.484 seconds (JVM running for 7.263)
+00:19:59.137 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:19:59.137 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:20:04.230 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:20:02 UTC","updatedISO":"2024-01-25T16:20:02+00:00","updateduk":"Jan 25, 2024 at 16:20 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,853.821","description":"United States Dollar","rate_float":39853.8213},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,323.509","description":"British Pound Sterling","rate_float":31323.5094},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,697.08","description":"Euro","rate_float":36697.0798}}}
+00:20:04.237 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:20 GMT, updatedISO=2024-01-25T16:20:02+00:00, updated=Jan 25, 2024 16:20:02 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39853.8213, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31323.5094, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36697.0798, code=EUR, description=Euro]}]
+00:20:06.661 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:20 GMT, updatedISO=2024-01-25T16:20:02+00:00, updated=Jan 25, 2024 16:20:02 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39853.8213, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31323.5094, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36697.0798, code=EUR, description=Euro]}]
+00:20:09.357 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:20:14.248 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:20:29.718 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:20:44.498 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:20:44.505 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:21:06.031 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:21:06.087 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 65632 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:21:06.093 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:21:07.652 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:21:07.743 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:21:07.893 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:21:07.960 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:21:08.121 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:21:08.324 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:21:08.997 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:21:10.193 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:21:11.037 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:21:11.060 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:21:11.105 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:21:11.243 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 5.448 seconds (JVM running for 7.229)
+00:21:11.496 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:21:11.497 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:21:18.521 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:21:16 UTC","updatedISO":"2024-01-25T16:21:16+00:00","updateduk":"Jan 25, 2024 at 16:21 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,863.144","description":"United States Dollar","rate_float":39863.1438},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,330.837","description":"British Pound Sterling","rate_float":31330.8365},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,705.664","description":"Euro","rate_float":36705.664}}}
+00:21:18.529 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:21 GMT, updatedISO=2024-01-25T16:21:16+00:00, updated=Jan 25, 2024 16:21:16 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39863.1438, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31330.8365, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36705.664, code=EUR, description=Euro]}]
+00:21:18.529 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:21 GMT, updatedISO=2024-01-25T16:21:16+00:00, updated=Jan 25, 2024 16:21:16 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39863.1438, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31330.8365, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36705.664, code=EUR, description=Euro]}]
+00:21:22.149 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:21:26.803 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:22:03.732 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:22:03.758 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:22:03.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:22:18.904 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:22:18.936 [main] INFO  com.cathay.CathayDemoApplication - Starting CathayDemoApplication using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 67972 (C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo\target\classes started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:22:18.940 [main] INFO  com.cathay.CathayDemoApplication - No active profile set, falling back to default profiles: default
+00:22:20.042 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:22:20.043 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:22:20.043 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+00:22:20.130 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring embedded WebApplicationContext
+00:22:20.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:22:20.245 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:22:20.308 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:22:20.353 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:22:20.464 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:22:20.566 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:22:21.007 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:22:21.516 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:22:21.755 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:22:21.793 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:22:21.810 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:22:21.835 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:22:21.941 [main] INFO  com.cathay.CathayDemoApplication - Started CathayDemoApplication in 3.282 seconds (JVM running for 4.163)
+00:22:32.661 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:22:32.681 [http-nio-8080-exec-1] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:22:32.681 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:22:33.329 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+00:22:33.329 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 16:22:31 UTC
+00:22:37.208 [http-nio-8080-exec-2] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:22:37.208 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:22:37.256 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+00:22:37.257 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 16:22:31 UTC
+00:22:37.856 [http-nio-8080-exec-3] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:22:37.856 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:22:37.887 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+00:22:37.887 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 16:22:31 UTC
+00:22:38.393 [http-nio-8080-exec-4] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:22:38.393 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:22:38.424 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+00:22:38.424 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 16:22:31 UTC
+00:22:57.346 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:22:57.405 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 63764 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:22:57.410 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:22:58.982 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:22:59.068 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:22:59.223 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:22:59.296 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:22:59.462 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:22:59.675 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:23:00.360 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:23:01.527 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:23:02.437 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:23:02.461 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:23:02.506 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:23:02.647 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 5.541 seconds (JVM running for 7.329)
+00:23:02.914 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:23:02.914 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:23:03.586 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:23:02 UTC","updatedISO":"2024-01-25T16:23:02+00:00","updateduk":"Jan 25, 2024 at 16:23 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,876.037","description":"United States Dollar","rate_float":39876.0369},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,340.97","description":"British Pound Sterling","rate_float":31340.9699},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,717.536","description":"Euro","rate_float":36717.5357}}}
+00:23:03.594 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:23 GMT, updatedISO=2024-01-25T16:23:02+00:00, updated=Jan 25, 2024 16:23:02 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39876.0369, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31340.9699, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36717.5357, code=EUR, description=Euro]}]
+00:23:03.595 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:23 GMT, updatedISO=2024-01-25T16:23:02+00:00, updated=Jan 25, 2024 16:23:02 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39876.0369, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31340.9699, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36717.5357, code=EUR, description=Euro]}]
+00:23:05.406 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:23:08.304 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:23:12.079 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:23:12.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:23:12.125 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:23:14.873 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:23:14.878 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:23:20.316 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:23:20.371 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 55044 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:23:20.376 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:23:21.910 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:23:21.997 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:23:22.163 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:23:22.232 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:23:22.393 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:23:22.598 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:23:23.268 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:23:24.409 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:23:25.255 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:23:25.282 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:23:25.324 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:23:25.459 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 5.382 seconds (JVM running for 7.152)
+00:23:25.706 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:23:25.706 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:23:26.093 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:23:02 UTC","updatedISO":"2024-01-25T16:23:02+00:00","updateduk":"Jan 25, 2024 at 16:23 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,876.037","description":"United States Dollar","rate_float":39876.0369},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,340.97","description":"British Pound Sterling","rate_float":31340.9699},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,717.536","description":"Euro","rate_float":36717.5357}}}
+00:23:26.103 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:23 GMT, updatedISO=2024-01-25T16:23:02+00:00, updated=Jan 25, 2024 16:23:02 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39876.0369, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31340.9699, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36717.5357, code=EUR, description=Euro]}]
+00:23:26.103 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:23 GMT, updatedISO=2024-01-25T16:23:02+00:00, updated=Jan 25, 2024 16:23:02 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39876.0369, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31340.9699, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36717.5357, code=EUR, description=Euro]}]
+00:23:31.571 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:23:34.831 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:24:36.356 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:24:36.386 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:24:36.393 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:25:07.522 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:25:07.563 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 70000 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:25:07.569 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:25:08.999 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:25:09.079 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:25:09.209 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:25:09.274 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:25:09.427 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:25:09.617 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:25:10.172 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:25:11.186 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:25:11.899 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:25:11.919 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:25:11.957 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:25:12.088 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.814 seconds (JVM running for 6.215)
+00:25:12.347 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:25:12.347 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:25:13.956 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:25:12 UTC","updatedISO":"2024-01-25T16:25:12+00:00","updateduk":"Jan 25, 2024 at 16:25 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,854.406","description":"United States Dollar","rate_float":39854.406},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,323.969","description":"British Pound Sterling","rate_float":31323.9689},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,697.618","description":"Euro","rate_float":36697.6182}}}
+00:25:13.963 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:25 GMT, updatedISO=2024-01-25T16:25:12+00:00, updated=Jan 25, 2024 16:25:12 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39854.406, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31323.9689, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36697.6182, code=EUR, description=Euro]}]
+00:25:13.963 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:25 GMT, updatedISO=2024-01-25T16:25:12+00:00, updated=Jan 25, 2024 16:25:12 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39854.406, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31323.9689, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36697.6182, code=EUR, description=Euro]}]
+00:25:14.078 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:25:14.078 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:25:14.420 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:25:14.445 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:25:14.450 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:26:04.703 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:26:04.742 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 17320 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:26:04.748 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:26:06.221 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:26:06.303 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:26:06.427 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:26:06.501 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:26:06.659 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:26:06.859 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:26:07.389 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:26:08.402 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:26:09.094 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:26:09.117 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:26:09.152 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:26:09.285 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.841 seconds (JVM running for 6.242)
+00:26:09.536 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:26:09.536 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:26:10.995 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:26:08 UTC","updatedISO":"2024-01-25T16:26:08+00:00","updateduk":"Jan 25, 2024 at 16:26 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,866.731","description":"United States Dollar","rate_float":39866.731},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,333.656","description":"British Pound Sterling","rate_float":31333.6559},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,708.967","description":"Euro","rate_float":36708.967}}}
+00:26:11.005 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:26 GMT, updatedISO=2024-01-25T16:26:08+00:00, updated=Jan 25, 2024 16:26:08 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39866.731, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31333.6559, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36708.967, code=EUR, description=Euro]}]
+00:26:11.005 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:26 GMT, updatedISO=2024-01-25T16:26:08+00:00, updated=Jan 25, 2024 16:26:08 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39866.731, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31333.6559, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36708.967, code=EUR, description=Euro]}]
+00:26:11.116 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:26:11.116 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:26:11.443 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:26:11.468 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:26:11.474 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:28:21.715 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+00:28:21.752 [main] INFO  com.cathay.controller.CoindeskControllerTest - Starting CoindeskControllerTest using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 66076 (started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+00:28:21.756 [main] INFO  com.cathay.controller.CoindeskControllerTest - No active profile set, falling back to default profiles: default
+00:28:23.173 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:28:23.262 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:28:23.404 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:28:23.477 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+00:28:23.637 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:28:23.850 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+00:28:24.424 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:28:25.442 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:28:26.144 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:28:26.166 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:28:26.200 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:28:26.334 [main] INFO  com.cathay.controller.CoindeskControllerTest - Started CoindeskControllerTest in 4.871 seconds (JVM running for 6.283)
+00:28:26.575 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+00:28:26.575 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+00:28:27.329 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 16:28:25 UTC","updatedISO":"2024-01-25T16:28:25+00:00","updateduk":"Jan 25, 2024 at 16:28 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,894.812","description":"United States Dollar","rate_float":39894.812},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,413.454","description":"British Pound Sterling","rate_float":31413.4542},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,830.851","description":"Euro","rate_float":36830.8505}}}
+00:28:27.339 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:28 GMT, updatedISO=2024-01-25T16:28:25+00:00, updated=Jan 25, 2024 16:28:25 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39894.812, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31413.4542, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36830.8505, code=EUR, description=Euro]}]
+00:28:27.340 [main] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 16:28 GMT, updatedISO=2024-01-25T16:28:25+00:00, updated=Jan 25, 2024 16:28:25 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39894.812, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31413.4542, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36830.8505, code=EUR, description=Euro]}]
+00:28:27.457 [main] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+00:28:27.458 [main] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+00:28:27.499 [main] ERROR com.cathay.config.ExceptionHandlerConfig - Exception: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: 'java.util.Map org.json.JSONObject.toMap()'
+00:28:27.516 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:28:27.521 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:07:31.126 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+01:07:31.159 [main] INFO  com.cathay.CathayDemoApplication - Starting CathayDemoApplication using Java 17.0.8.1 on LAPTOP-NV9HQ47D with PID 68876 (C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo\target\classes started by User in C:\Users\User\Desktop\sts-4.20.1.RELEASE\workspace\CathayDemo)
+01:07:31.163 [main] INFO  com.cathay.CathayDemoApplication - No active profile set, falling back to default profiles: default
+01:07:32.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:07:32.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:07:32.288 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+01:07:32.378 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring embedded WebApplicationContext
+01:07:32.443 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:07:32.491 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:07:32.557 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:07:32.603 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+01:07:32.715 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:07:32.819 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+01:07:33.263 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:07:33.760 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+01:07:33.993 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:07:34.033 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+01:07:34.050 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+01:07:34.075 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+01:07:34.195 [main] INFO  com.cathay.CathayDemoApplication - Started CathayDemoApplication in 3.341 seconds (JVM running for 4.227)
+01:39:37.820 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/CathayDemo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:45:36.857 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method
+01:45:36.961 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+01:45:43.052 [http-nio-8080-exec-9] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 1
+01:47:07.877 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 1
+01:47:09.212 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 1
+01:48:56.648 [http-nio-8080-exec-7] INFO  com.cathay.service.impl.CurrencyServiceImpl - addCurrency method: currencyVo = CurrencyVo [currencyID=null, currencyCode=NTD, currencyName=台幣]
+01:49:47.336 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:49:48.997 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:51:27.591 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CurrencyServiceImpl - updCurrency method: currencyId = 4
+01:51:27.592 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CurrencyServiceImpl - updCurrency method: currencyVo = CurrencyVo [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+01:51:27.593 [http-nio-8080-exec-2] INFO  com.cathay.service.impl.CurrencyServiceImpl - updCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=台幣]
+01:52:05.417 [http-nio-8080-exec-5] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:52:39.352 [http-nio-8080-exec-10] INFO  com.cathay.service.impl.CurrencyServiceImpl - delCurrency method: currencyId = 4
+01:52:39.353 [http-nio-8080-exec-10] INFO  com.cathay.service.impl.CurrencyServiceImpl - delCurrency method: findByCurrencyEntity = CurrencyEntity [currencyID=4, currencyCode=NTD, currencyName=新台幣]
+01:53:03.894 [http-nio-8080-exec-4] INFO  com.cathay.service.impl.CurrencyServiceImpl - findByid method: currencyId = 4
+01:53:26.113 [http-nio-8080-exec-6] INFO  com.cathay.controller.CoindeskController - Coindesk API V1
+01:53:26.113 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV1() method
+01:53:26.737 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskJsonStr: {"time":{"updated":"Jan 25, 2024 17:53:24 UTC","updatedISO":"2024-01-25T17:53:24+00:00","updateduk":"Jan 25, 2024 at 17:53 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"39,833.096","description":"United States Dollar","rate_float":39833.0955},"GBP":{"code":"GBP","symbol":"&pound;","rate":"31,373.502","description":"British Pound Sterling","rate_float":31373.502},"EUR":{"code":"EUR","symbol":"&euro;","rate":"36,758.897","description":"Euro","rate_float":36758.8967}}}
+01:53:26.743 [http-nio-8080-exec-6] INFO  com.cathay.service.impl.CoindeskServiceImpl - CoindeskApiVo: CoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 17:53 GMT, updatedISO=2024-01-25T17:53:24+00:00, updated=Jan 25, 2024 17:53:24 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39833.0955, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31373.502, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36758.8967, code=EUR, description=Euro]}]
+01:53:26.743 [http-nio-8080-exec-6] INFO  com.cathay.controller.CoindeskController - CoindeskApiVoCoindeskApiVo [chartName=Bitcoin, time=CoindeskDateVo [updateduk=Jan 25, 2024 at 17:53 GMT, updatedISO=2024-01-25T17:53:24+00:00, updated=Jan 25, 2024 17:53:24 UTC], disclaimer=This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org, bpi={USD=CoindeskBpiVo [symbol=&#36;, rate_float=39833.0955, code=USD, description=United States Dollar], GBP=CoindeskBpiVo [symbol=&pound;, rate_float=31373.502, code=GBP, description=British Pound Sterling], EUR=CoindeskBpiVo [symbol=&euro;, rate_float=36758.8967, code=EUR, description=Euro]}]
+01:54:05.327 [http-nio-8080-exec-3] INFO  com.cathay.controller.CoindeskController - Coindesk API V2
+01:54:05.327 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskApiV2 method
+01:54:05.652 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method mapKeyList = [EUR, GBP, USD]
+01:54:05.652 [http-nio-8080-exec-3] INFO  com.cathay.service.impl.CoindeskServiceImpl - findCoindeskDatas method updateDateStr = Jan 25, 2024 17:54:03 UTC
+02:04:14.449 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method
+02:04:14.452 [http-nio-8080-exec-1] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+02:04:15.260 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method
+02:04:15.262 [http-nio-8080-exec-8] INFO  com.cathay.service.impl.CurrencyServiceImpl - findAllCurrency method: CurrencyVo = [CurrencyEntity [currencyID=1, currencyCode=USD, currencyName=美元], CurrencyEntity [currencyID=2, currencyCode=GBP, currencyName=英鎊], CurrencyEntity [currencyID=3, currencyCode=EUR, currencyName=歐元]]
+02:04:56.256 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:04:56.262 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
